@@ -16,13 +16,16 @@ NOTICE_PATH = os.path.join(REPO_PATH, 'NOTICE')
 GITIGNORE_PATH = os.path.join(REPO_PATH, '.gitignore')
 GITIGNORE_URL = 'https://www.gitignore.io/api/{{cookiecutter.gitignore}}'
 
-{% if cookiecutter.github_org_repo_space == 'no' %}
+{% if cookiecutter.git_user == cookiecutter.repo_space %}
 GITHUB_REPOS_URL = 'https://api.github.com/user/repos'
 {% else %}
 GITHUB_REPOS_URL = 'https://api.github.com/orgs/{{cookiecutter.repo_space}}/repos'
 {% endif %}
 
-GITLAB_TOKEN_HEADER = {'PRIVATE-TOKEN': '{{cookiecutter.gitlab_token}}'}
+{% if cookiecutter.remote_provider == 'GitLab' %}
+GITLAB_TOKEN = getpass.getpass('gitlab_token: ').strip()
+GITLAB_TOKEN_HEADER = {'PRIVATE-TOKEN': GITLAB_TOKEN}
+{% endif %}
 GITLAB_NAMESPACES_URL = 'https://gitlab.com/api/v3/namespaces'
 GITLAB_PROJECTS_URL = 'https://gitlab.com/api/v3/projects'
 REPO_REMOTE_URL = ('https://{{cookiecutter.git_user}}@'
