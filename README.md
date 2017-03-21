@@ -1,7 +1,7 @@
 ![Cookie Monster](assets/img/cookie-monster.png "Cookie Monster")
 
 # cookie-cookie
-**Cookie Cookie**! Project template for... project templates...
+**Cookie Cookie**! A project template for... project templates...
 
 ## Requirements
  - [git](https://git-scm.com/downloads)
