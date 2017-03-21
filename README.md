@@ -1,5 +1,3 @@
-![Cookie Monster](assets/img/cookie-monster.png "Cookie Monster")
-
 # cookie-cookie
 **Cookie Cookie**! Project template for... project templates...
 
