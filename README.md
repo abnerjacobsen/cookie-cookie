@@ -3,7 +3,7 @@
 
 ## Features
  - Inspired by [cookiecutter-template](https://github.com/eviweb/cookiecutter-template)
- - See [cookiecutter-git](https://github.com/webevllc/cookiecutter-git#features) features
+ - See [cookiecutter-git Features](https://github.com/webevllc/cookiecutter-git#features)
 
 ## Requirements
  - [git](https://git-scm.com/downloads)
@@ -14,6 +14,8 @@
     $ cookiecutter gh:webevllc/cookie-cookie
 
 ### Example
+See [cookiecutter-test](https://github.com/webevllc/cookiecutter-test)
+
     $ tree -a cookiecutter-test
     cookiecutter-test
     ├── AUTHORS.md
