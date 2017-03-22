@@ -1,3 +1,5 @@
+![Cookie Cookie Logo](assets/img/cookie-cookie-logo.png "Cookie Cookie Logo")
+
 # cookie-cookie
 **Cookie Cookie**! A project template for... project templates...
 
