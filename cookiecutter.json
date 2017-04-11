@@ -1,16 +1,30 @@
 {
   "author_name": "Nathan Urwin",
   "author_email": "tuxredux2@gmail.com",
-  "git_user": "tuxredux",
-  "repo_space": "webevllc",
-  "repo_name": "cookiecutter-test",
+  "git_username": "tuxredux",
+  "cookiecutter_namespace": "webevllc",
+  "cookiecutter_slug": "cookie-cookie-example",
+  "cookiecutter_description": "An example cookie-cookie project template",
   "create_remote": ["yes", "no"],
-  "remote_provider": ["GitHub", "GitLab"],
+  "remote_provider": ["github.com", "gitlab.com", "bitbucket.org"],
   "gitignore": "windows,osx,linux,git",
-  "license": ["Apache-2.0", "MIT", "BSD-3", "GPLv3", "Proprietary"],
+  "license": [
+    "Apache-2.0",
+    "GPL-3.0",
+    "MIT",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "EPL-1.0",
+    "AGPL-3.0",
+    "GPL-2.0",
+    "LGPL-2.1",
+    "LGPL-3.0",
+    "MPL-2.0",
+    "Unlicense"
+  ],
   "copyright_holder": "Webev LLC",
   "_copy_without_render": [
-    "{{cookiecutter.repo_name}}",
-    "hooks"
+      "{{cookiecutter.repository_name}}",
+      "hooks"
   ]
 }
