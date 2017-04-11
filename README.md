@@ -14,35 +14,11 @@
 
 ## Usage
     $ cookiecutter gh:webevllc/cookie-cookie
+    # OR
+    $ cookiecutter https://github.com/webevllc/cookie-cookie
 
 ### Example
-See [cookiecutter-test](https://github.com/webevllc/cookiecutter-test)
-
-    $ tree -a cookiecutter-test
-    cookiecutter-test
-    ├── AUTHORS.md
-    ├── CHANGELOG.md
-    ├── CONTRIBUTING.md
-    ├── cookiecutter.json
-    ├── {{cookiecutter.repo_name}}
-    │   ├── AUTHORS.md
-    │   ├── CHANGELOG.md
-    │   ├── CONTRIBUTING.md
-    │   ├── {{cookiecutter.pkg_name}}
-    │   │   └── .gitkeep
-    │   ├── .gitignore
-    │   ├── LICENSE
-    │   ├── NOTICE
-    │   └── README.md
-    ├── .git
-    ├── .gitignore
-    ├── hooks
-    │   └── post_gen_project.py
-    ├── LICENSE
-    ├── NOTICE
-    └── README.md
-
-    4 directories, 17 files
+See [cookie-cookie-example](https://github.com/webevllc/cookie-cookie-example)
 
 ## Development
 See [CONTRIBUTING](CONTRIBUTING.md)
