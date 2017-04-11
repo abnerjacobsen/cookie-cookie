@@ -24,7 +24,7 @@ JSON_HEADER = {'Content-Type': 'application/json; charset=utf-8'}
 BITBUCKET_REPOS_URL = ('https://api.bitbucket.org/2.0/repositories/'
     '{{cookiecutter.cookiecutter_namespace}}/{{cookiecutter.cookiecutter_slug}}')
 
-{% if cookiecutter.git_username == cookiecutter.repository_namespace %}
+{% if cookiecutter.git_username == cookiecutter.cookiecutter_namespace %}
 GITHUB_REPOS_URL = 'https://api.github.com/user/repos'
 {% else %}
 GITHUB_REPOS_URL = ('https://api.github.com/orgs/'

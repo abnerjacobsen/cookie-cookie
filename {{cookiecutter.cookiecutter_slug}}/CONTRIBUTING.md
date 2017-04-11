@@ -17,5 +17,5 @@ Make sure to have atomic commits and contextual commit messages!
 [Check out this awesome blog post by Chris Beams for more information.][3]
 
 [1]: https://{{cookiecutter.remote_provider}}/{{cookiecutter.cookiecutter_namespace}}/{{cookiecutter.cookiecutter_slug}}/issues/new
-[2]: https://github.com/{{cookiecutter.repository_namespace}}/{{cookiecutter.cookiecutter_slug}}/{% if cookiecutter.remote_provider == 'github.com' %}compare{% elif cookiecutter.remote_provider == 'gitlab.com' %}merge_requests/new{% elif cookiecutter.remote_provider == 'bitbucket.org' %}pull-requests/new{% endif %}
+[2]: https://github.com/{{cookiecutter.cookiecutter_namespace}}/{{cookiecutter.cookiecutter_slug}}/{% if cookiecutter.remote_provider == 'github.com' %}compare{% elif cookiecutter.remote_provider == 'gitlab.com' %}merge_requests/new{% elif cookiecutter.remote_provider == 'bitbucket.org' %}pull-requests/new{% endif %}
 [3]: http://chris.beams.io/posts/git-commit/

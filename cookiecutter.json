@@ -24,7 +24,7 @@
   ],
   "copyright_holder": "Webev LLC",
   "_copy_without_render": [
-      "{{cookiecutter.repository_name}}",
+      "{{cookiecutter.repository_slug}}",
       "hooks"
   ]
 }
