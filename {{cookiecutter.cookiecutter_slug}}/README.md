@@ -1,5 +1,5 @@
 # {{cookiecutter.cookiecutter_slug}}
-# {{cookiecutter.cookiecutter_description}}
+{{cookiecutter.cookiecutter_description}}
 
 ## Features
 - See [cookiecutter-git](https://github.com/webevllc/cookiecutter-git#features) Features
