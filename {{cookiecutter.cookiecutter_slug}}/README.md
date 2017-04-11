@@ -1,4 +1,5 @@
-# {{cookiecutter.repo_name}}
+# {{cookiecutter.cookiecutter_slug}}
+# {{cookiecutter.cookiecutter_description}}
 
 ## Features
 - See [cookiecutter-git](https://github.com/webevllc/cookiecutter-git#features) Features
@@ -9,7 +10,9 @@
 - [cookiecutter](https://github.com/audreyr/cookiecutter)
 
 ## Usage
-    $ cookiecutter gh:{{cookiecutter.repo_space}}/{{cookiecutter.repo_name}}
+    $ cookiecutter gh:{{cookiecutter.cookiecutter_namespace}}/{{cookiecutter.cookiecutter_slug}}
+    # OR
+    $ cookiecutter https://github.com/{{cookiecutter.cookiecutter_namespace}}/{{cookiecutter.cookiecutter_slug}}
 
 ## Development
 See [CONTRIBUTING](CONTRIBUTING.md)
@@ -21,4 +24,4 @@ See [CHANGELOG](CHANGELOG.md)
 See [AUTHORS](AUTHORS.md)
 
 ## License
-See [LICENSE](LICENSE), [NOTICE](NOTICE)
+See [LICENSE](LICENSE),{% if cookiecutter.license == 'Apache-2.0' %}, [NOTICE](NOTICE){% endif %}
