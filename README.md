@@ -1,4 +1,4 @@
-![Cookie Cookie Logo](assets/img/cookie-cookie-logo.png "Cookie Cookie Logo")
+![Cookie Cookie Logo](assets/cookie-cookie-logo.png "Cookie Cookie Logo")
 
 # cookie-cookie
 A project template for... project templates...
