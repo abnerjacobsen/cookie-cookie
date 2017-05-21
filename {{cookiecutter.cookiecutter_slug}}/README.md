@@ -2,7 +2,7 @@
 {{cookiecutter.cookiecutter_description}}
 
 ## Features
-See [cookiecutter-git](https://github.com/webevllc/cookiecutter-git#features) Features
+See [cookiecutter-git](https://github.com/tuxredux/cookiecutter-git#features) Features
 
 ## Requirements
 - [git](https://git-scm.com/downloads)
@@ -15,7 +15,7 @@ See [cookiecutter-git](https://github.com/webevllc/cookiecutter-git#features) Fe
     $ cookiecutter https://github.com/{{cookiecutter.cookiecutter_namespace}}/{{cookiecutter.cookiecutter_slug}}
 
 ## Documentation
-See [cookiecutter-git](https://github.com/webevllc/cookiecutter-git#documentation) Documentation
+See [cookiecutter-git](https://github.com/tuxredux/cookiecutter-git#documentation) Documentation
 
 ## Development
 See [CONTRIBUTING](CONTRIBUTING.md)

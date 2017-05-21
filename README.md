@@ -1,11 +1,11 @@
 ![Cookie Cookie Logo](assets/img/cookie-cookie-logo.png "Cookie Cookie Logo")
 
 # cookie-cookie
-**Cookie Cookie**! A project template for... project templates...
+A project template for... project templates...
 
 ## Features
 - Inspired by [cookiecutter-template](https://github.com/eviweb/cookiecutter-template)
-- See [cookiecutter-git](https://github.com/webevllc/cookiecutter-git#features) Features
+- See [cookiecutter-git](https://github.com/tuxredux/cookiecutter-git#features) Features
 
 ## Requirements
 - [git](https://git-scm.com/downloads)
@@ -13,12 +13,12 @@
 - [cookiecutter](https://github.com/audreyr/cookiecutter)
 
 ## Usage
-    $ cookiecutter gh:webevllc/cookie-cookie
+    $ cookiecutter gh:tuxredux/cookie-cookie
     # OR
-    $ cookiecutter https://github.com/webevllc/cookie-cookie
+    $ cookiecutter https://github.com/tuxredux/cookie-cookie
 
 ### Example
-See [cookie-cookie-example](https://github.com/webevllc/cookie-cookie-example)
+See [cookie-cookie-example](https://github.com/tuxredux/cookie-cookie-example)
 
     $ tree -a -I .git cookie-cookie-example
     cookie-cookie-example
