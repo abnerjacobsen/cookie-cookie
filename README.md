@@ -57,6 +57,9 @@ See [cookie-cookie-example](https://github.com/tuxredux/cookie-cookie-example)
 
     4 directories, 28 files
 
+## Documentation
+See [cookiecutter-git](https://github.com/tuxredux/cookiecutter-git#documentation) Documentation
+
 ## Development
 See [CONTRIBUTING](CONTRIBUTING.md)
 
