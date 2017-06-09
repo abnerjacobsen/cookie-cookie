@@ -55,7 +55,7 @@ def run(command, log=True):
         raise error
     else:
         if output and log:
-            print('{}\n{}'.format(' '.join(command), output))
+            print('{}\n{}'.format(' '.join(command), output.decode('utf8')))
         else:
             print(' '.join(command))
     return output
